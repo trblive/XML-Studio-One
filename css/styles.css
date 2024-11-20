@@ -20,6 +20,11 @@ body {
     margin: 20px;
     color: var(--text-primary);
     background-color: var(--background-primary);
+    text-align: center;
+}
+
+.sr-only {
+    display: none;
 }
 
 h1, h2 {
@@ -28,8 +33,14 @@ h1, h2 {
     margin-bottom: 20px;
 }
 
-#musicCatalogue {
-    text-align: center;
+#logo {
+    width: 300px;
+    height: auto;
+    fill: var(--accent2);
+
+    & #Disc {
+        fill: var(--accent1);
+    }
 }
 
 #Btn {

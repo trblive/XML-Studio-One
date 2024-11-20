@@ -4,7 +4,7 @@
         <html>
             <body>
                 <h2>Studio One Music Catalogue</h2>
-                <table border="1">
+                <table>
                     <tr>
                         <th style="text-align:left">Title</th>
                         <th style="text-align:left">Album</th>

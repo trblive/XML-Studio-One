@@ -11,9 +11,9 @@
                             <xs:element name="artist" type="xs:string"/>
                             <xs:element name="country" type="xs:string"/>
                             <xs:element name="company" type="xs:string"/>
-                            <xs:element name="format" type="xs:string"/>
                             <xs:element name="price" type="xs:decimal"/>
                             <xs:element name="year" type="xs:gYear"/>
+                            <xs:element name="format" type="xs:string"/>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>

@@ -1,3 +1,5 @@
+/* jshint esversion: 6 */
+
 function loadXMLDoc(dName, callback) {
     'use strict';
 
@@ -64,7 +66,7 @@ function displayResult(xml, xsl) {
 function init(){
     'use strict';
     document.getElementById("Btn").addEventListener("click", function () {
-        transform("resources/music_catalogue.xml","resources/music_transform.xsl")
+        transform("resources/music_catalogue.xml","resources/music_transform.xsl");
     });
 }
 
