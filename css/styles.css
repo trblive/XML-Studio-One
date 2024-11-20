@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --text-primary: #FFF;
+    --background-primary: #2A2D34;
+    --background-secondary: #424553;
+    --accent1: #F39fCE;
+    --accent2: #A2C6C6;
+    --accent3: #927BC3;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    margin: 20px;
+    color: var(--text-primary);
+    background-color: var(--background-primary);
+}
+
+h1, h2 {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#musicCatalogue {
+    text-align: center;
+}
+
+#Btn {
+    margin-top: 0.83em;
+    padding: 8px 16px;
+    color: var(--text-primary);
+    background-color: var(--accent3);
+    border: 1px solid var(--text-primary);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+table, th, td {
+    border: 1px solid var(--text-primary);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--accent3);
+    font-size: 1.1em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    color: var(--text-primary);
+    background-color: var(--background-secondary)
+}
+
+
+/* highlight classes */
+tr.gt-10 {
+    color: var(--background-primary);
+    background-color: var(--accent1);
+    font-weight: 600;
+}
+
+tr.gt-9 {
+    color: var(--background-primary);
+    background-color: var(--accent2)
+}
